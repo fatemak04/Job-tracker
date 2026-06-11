@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="max-width:480px;margin:0 auto">
+  <h1 style="font-size:22px;font-weight:600;margin-bottom:6px">Add Application</h1>
+  <p style="font-size:13px;color:#666;margin-bottom:24px">Track a new job you applied to.</p>
+
+  <div style="background:#fff;border-radius:10px;border:1px solid #e5e7eb;padding:24px">
+    <form method="POST" action="/add">
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:500;margin-bottom:6px">Company name</label>
+        <input type="text" name="company" required placeholder="e.g. Google"
+          style="width:100%;padding:9px 12px;border:1px solid #ddd;border-radius:6px;font-size:14px"/>
+      </div>
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:500;margin-bottom:6px">Position</label>
+        <input type="text" name="position" required placeholder="e.g. Software Engineer Intern"
+          style="width:100%;padding:9px 12px;border:1px solid #ddd;border-radius:6px;font-size:14px"/>
+      </div>
+      <div style="margin-bottom:24px">
+        <label style="display:block;font-size:13px;font-weight:500;margin-bottom:6px">Date applied</label>
+        <input type="date" name="date_applied" required
+          style="width:100%;padding:9px 12px;border:1px solid #ddd;border-radius:6px;font-size:14px"/>
+      </div>
+      <div style="display:flex;gap:10px">
+        <button type="submit" class="btn btn-primary" style="flex:1">Save Application</button>
+        <a href="/" class="btn" style="background:#f3f4f6;color:#555">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
