@@ -2,7 +2,7 @@
 
 A simple web app to track internship and job applications — built with Python/Flask.
 
-![CI/CD Pipeline](https://github.com/fatemak04/job-tracker/actions/workflows/ci.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/fatemak04/Job-tracker/actions/workflows/ci.yml/badge.svg)
 
 ## Features
 - Add, view, and delete job applications
