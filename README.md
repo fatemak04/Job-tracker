@@ -4,6 +4,9 @@ The Job Application Tracker is a web-based application designed to help students
 
 ![CI/CD Pipeline](https://github.com/fatemak04/Job-tracker/actions/workflows/ci.yml/badge.svg)
 
+## Live Demo
+🌐 [View Live App](https://job-tracker-82ag.onrender.com)
+
 ## Features
 - Add job applications with company, position, and date 
 - Update application status (Applied, OA, Interview, Offer, Rejected)
